@@ -35,7 +35,6 @@ const Hero = () => {
             <h3>Is VC Funding Drying Up?</h3>
             <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
 
-            <div className='line'></div>
 
         </div>
     </section>

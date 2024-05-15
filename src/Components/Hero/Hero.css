@@ -1,6 +1,7 @@
 
 .hero {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .left {
@@ -16,8 +17,9 @@
 .content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
+    margin-top: 20px;
 }
 
 .heading {
@@ -27,12 +29,57 @@
 .heading h1 {
     font-size: 70px;
     font-weight: bolder;
+    line-height: 70px;
 }
 
 .text {
     width: 50%;
+    padding: 0 0 0 25px;
+}
+
+.text p {
+    margin-bottom: 40px;
+    color: rgb(109, 109, 109);
+}
+
+.text a {
+    background-color: rgb(255, 120, 71);
+    padding: 15px 35px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .right {
     width: 30vw;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 20px 30px;
+    margin-right: 120px;
+}
+
+.right h1 {
+    color: rgb(255, 177, 32);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.right h3 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.right p {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.521);
+    line-height: 20px;
+}
+
+.line {
+    background-color: rgba(255, 255, 255, 0.219);
+    height: 1px;
+    width: 100%;
+    margin: 30px 0;
 }
