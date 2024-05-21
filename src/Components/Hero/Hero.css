@@ -82,3 +82,47 @@
     width: 100%;
     margin: 30px 0;
 }
+
+@media only screen and (max-width: 760px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        width: 100vw;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 0;
+    }
+
+    .left img {
+       height: 200px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    
+    .heading {
+        width: 100%;
+    }
+    
+    .heading h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .text {
+        width: 100%;
+        padding: 20px 0 20px 0;
+        line-height: 30px;
+    }
+    
+    .text a {
+        padding: 20px 35px;
+    }
+
+
+}
