@@ -124,5 +124,19 @@
         padding: 20px 35px;
     }
 
+    .right {
+        width: 90vw;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .right h3 {
+        font-size: 22px;
+    }
+    
+    .right p {
+        font-size: 18px;
+    }
+
 
 }
